@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <title>Registraion Form</title>
+  </head>
+  <body>
+    <form action="#" class="form">
+      <h1 class="text-center">Registration Form</h1>
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div
+          class="progress-step progress-step-active"
+          data-title="Intro"
+        ></div>
+        <div class="progress-step" data-title="Contact"></div>
+        <div class="progress-step" data-title="Location"></div>
+        <div class="progress-step" data-title="Password"></div>
+      </div>
+
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <label for="username">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="input-group">
+          <label for="position">Course</label>
+          <input type="text" name="course" id="course" />
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="">Location</label>
+          <input type="" name="Location" id="Location" />
+        </div>
+        <!--
+        <div class="input-group">
+          <label for="">Intern Options</label>
+          <select class="form-select" aria-label="Default select example">
+                    
+            <option value="1">Can Work Home</option>
+            <option value="2">Must be Present</option>
+            <option value="3">Both allowed</option>
+            
+
+        </select>
+        </div>
+      -->
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+          />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <input type="submit" value="Submit" class="btn" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

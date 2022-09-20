@@ -1,0 +1,84 @@
+/* mystyle */
+
+.blog_categorie_area {
+  background: #f9f9ff;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+
+#blogheadings{
+  color:rgba(255, 102, 0, 0.911) ;
+  text-shadow:2px 0px rgba(34, 34, 34, 0.8);
+}
+
+.categories_post {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.categories_post img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 12px 12px 0px 0px;
+  width: 800px;
+  height: 200px;
+  border-bottom: 3px solid black;
+  
+}
+
+.categories_post .categories_details {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: rgba(34, 34, 34, 0.8);
+  color: #fff;
+  transition: all 0.3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories_post .categories_details h5 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.categories_text a{
+  text-decoration: none;
+}
+.categories_post .categories_details p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 0px;
+}
+
+.categories_post .categories_details .border_line {
+  margin: 10px 0px;
+  background: #fff;
+}
+
+.categories_post:hover .categories_details {
+  background: rgba(255, 102, 0, 0.911);
+}
+
+
+.border_line {
+  width: 100%;
+  height: 1px;
+  background: #333333;
+  margin-top: 30px;
+}
+
+.line{
+  width: 200px;
+  text-align: left;
+  color: rgba(0, 0, 0,);
+}
